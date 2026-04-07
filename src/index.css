@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+    @apply transition-colors duration-300 ease-in-out;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-background-100: #F2F2F2;
+    --color-background-200: #242426;
+    --color-background-300: #0D0D0D;
+    --color-primary: #731212;
+    --color-secondary: #8C1F28;
+
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-20;
+    }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-60px); }
+  100% { transform: translateY(0px); }
+}

@@ -1,0 +1,24 @@
+
+
+export default function Background() {
+
+  return (
+    <div className="fixed inset-0 -z-10 overflow-hidden bg-primary-100 dark:bg-[#0B0B0F]">
+
+      {/* Gradiente base */}
+      <div className="absolute inset-0 bg-gradient-to-b from-primary-100 via-primary-100 to-white dark:from-[#0B0B0F] dark:via-[#0B0B0F] dark:to-black" />
+
+      {/* Glow vermelho principal */}
+      <div className="absolute top-[-100px] left-[-150px] w-[500px] h-[500px] bg-red-600 opacity-20 blur-[150px] rounded-full animate-pulse" />
+
+      {/* Glow vermelho secundário */}
+      <div className="absolute bottom-[-150px] right-[-150px] w-[500px] h-[500px]
+      bg-red-500 opacity-50 dark:opacity-20 blur-[150px] rounded-full animate-[float_4s_ease-in-out_infinite]" />
+
+      {/* Glow roxo (efeito spiderverse) */}
+      <div className="absolute top-[20%] right-[20%] w-[250px] h-[250px]
+      bg-purple-500 opacity-10 blur-[120px] rounded-full" />
+
+    </div>
+  );
+}
