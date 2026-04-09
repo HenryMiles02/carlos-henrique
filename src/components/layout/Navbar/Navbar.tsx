@@ -1,10 +1,10 @@
 import React from "react";
-import Navlink from "../ui/nav-link.tsx";
-import ThemeButton from "../ui/theme-button.tsx";
-import Button from "../ui/button.tsx";
-import Menu from "../../assets/icons/menu.svg?react";
-import Close from "../..//assets/icons/close.svg?react";
-import { NavbarMenu } from "../../mockData/data.tsx";
+import Navlink from "../../ui/nav-link.tsx";
+import ThemeButton from "../../ui/theme-button.tsx";
+import Button from "../../ui/button.tsx";
+import Menu from "../../../assets/icons/menu.svg?react";
+import Close from "../../../assets/icons/close.svg?react";
+import { NavbarMenu } from "../../../mockData/data.tsx";
 import ResponsiveMenu from "./ResponsiveMenu.tsx";
 
 
