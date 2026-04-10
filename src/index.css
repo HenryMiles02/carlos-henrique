@@ -15,11 +15,18 @@
 
 }
 
-@layer utilities {
+@layer base {
     * {
-        @apply  font-family-primary;
+        font-family: var(--font-family-primary)
+    }
+
+    .swiper-wrapper{
+        transition-timing-function: linear !important;
     }
     
+}
+
+@layer utilities {
     .container {
         @apply mx-auto px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-20;
     }

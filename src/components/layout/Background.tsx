@@ -6,7 +6,7 @@ export default function Background() {
     <div className="background fixed inset-0 -z-10 overflow-hidden bg-primary-100 dark:bg-[#0B0B0F]">
 
       {/* Gradiente base */}
-      <div className="absolute inset-0 bg-linear-to-b from-primary-100 via-primary-100 to-white dark:from-[#0B0B0F] dark:via-[#0B0B0F] dark:to-black" />
+      <div className="absolute inset-0 bg-linear-to-b from-primary-100 via-primary-100 " />
 
       {/* Glow vermelho principal */}
       <div className="absolute -top-25 -left-37.5 w-125 h-125 bg-red-600 opacity-20 blur-[150px] rounded-full animate-pulse" />
