@@ -18,7 +18,6 @@ export default function Card({ project }: CardProps) {
         <div
             className="
             w-88
-            text-background-100
             bg-primary/10 backdrop-blur-sm
             border border-secondary
             rounded-lg p-5 gap-4
@@ -33,11 +32,11 @@ export default function Card({ project }: CardProps) {
                 className=" w-full max-h-42 bg-top rounded-md" 
             />
 
-            <h3 className="text-lg font-secondary font-semibold">
+            <h3 className="text-xl font-family-secondary font-bold dark:font-bold text-background-200 dark:text-background-100/90">
                 {project.title}
             </h3>
 
-            <p className="flex-1/2 text-sm tracking-wide opacity-80">
+            <p className="flex-1/2 text-base tracking-wide font-medium dark:font-light text-background-200/90 dark:text-background-100/60">
                 {project.description}
             </p>
 
@@ -46,7 +45,7 @@ export default function Card({ project }: CardProps) {
                     project.technologies?.map((tech) => (
                         <span
                             key={tech}
-                            className="text-xs text-background-100/60
+                            className="text-xs text-background-200/65 dark:text-background-100/60
                             font-bold uppercase tracking-wide
                             bg-primary/20 border border-secondary px-4 py rounded"
                         >
