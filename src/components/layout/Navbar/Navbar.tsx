@@ -22,7 +22,10 @@ export default function Navbar() {
                     border border-background-200/30 dark:border-background-100/20
                     bg-background-200/20 backdrop-blur-sm
                     text-primary-300 dark:text-primary-100`}>
-                    <h1 className="text-2xl dark:text-background-100 font-bold py-6"><a href="#home"><span className="text-secondary">&#x003C;</span>Carlos Henrique <span className="text-secondary">&#x002F;&#x003E;</span></a></h1>
+                    <h1 className="hidden md:block text-2xl dark:text-background-100 font-bold py-6"><a href="#home"><span className="text-secondary">&#x003C;</span>Carlos Henrique <span className="text-secondary">&#x002F;&#x003E;</span></a></h1>
+
+                    
+                    <h1 className="md:hidden text-2xl dark:text-background-100 font-bold py-6"><a href="#home"><span className="text-secondary">&#x003C;</span>Henrique <span className="text-secondary">&#x002F;&#x003E;</span></a></h1>
 
                     <div className="flex flex-row items-center gap-6 lg:gap-20">
                         <div className="hidden md:block">
