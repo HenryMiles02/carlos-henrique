@@ -31,13 +31,6 @@
         @apply mx-auto px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-20;
     }
 
-    .bg-image {
-        background-image: url('/perfil.png');
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .background {
     @apply transition-all duration-300 ease-in-out;
     }

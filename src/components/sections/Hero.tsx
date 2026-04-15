@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { SlideLeft, SlideRight } from "../../assets/utility/animation"
+import Perfil from "/public/perfil.png"
 
 
 export default function Hero() {
@@ -34,7 +35,8 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             className="flex justify-center md:justify-end items-center">
-                <div className='bg-image w-87.5 h-87.5 rounded-full'>
+                <div className='w-87.5 h-87.5 rounded-full'>
+                    <img src={Perfil} className="w-full h-full object-cover object-top rounded-full" alt="" />
                 </div>
             </motion.div>
         </main>
