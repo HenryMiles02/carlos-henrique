@@ -32,7 +32,7 @@
     }
 
     .bg-image {
-        background-image: url(/public/perfil.png);
+        background-image: url(/src/assets/img/perfil.png);
         background-position: top center;
         background-repeat: no-repeat;
         background-size: 100%;
