@@ -3,6 +3,7 @@ import Background from "./components/layout/Background"
 import Hero from "./components/sections/Hero"
 import Technologias from "./components/sections/Technologias"
 import Projects from "./components/sections/Projects"
+import Contact from "./components/sections/Contact"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Technologias />
       <Projects />
+      <Contact />
     </div>
   )
 }
