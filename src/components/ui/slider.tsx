@@ -41,7 +41,7 @@ export default function Slider() {
                             className="flex flex-col items-center justify-center gap-2"
                         >
                             <items.img className="w-16 h-16" />
-                            <p className="text-background-100/70 text-2xl font-bold">{items.nome}</p>
+                            <p className="text-background-200/80 dark:text-background-100/70 text-2xl font-bold">{items.nome}</p>
                         </div>
                     </SwiperSlide>
                 ))
