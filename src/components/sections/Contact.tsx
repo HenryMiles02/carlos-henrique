@@ -11,7 +11,7 @@ export default function Contact() {
             <div 
                 className="
                 flex flex-col lg:flex-row 
-                p-5 mx-8 gap-20 rounded-2xl 
+                p-5 md:mx-8 gap-4 md:gap-20 rounded-2xl 
                 text-background-200 dark:text-background-100/60
                 bg-background-200/30 dark:bg-primary/10 backdrop-blur-sm
                 border border-secondary
@@ -27,7 +27,7 @@ export default function Contact() {
                         <p>Acredito que um bom projeto não é só sobre funcionar, mas sobre transmitir estilo, energia e identidade. Por isso, busco unir design e código para construir experiências modernas, responsivas e marcantes.</p>
                         <p>Atualmente trabalho com React, Tailwind, TypeScript e JavaScript, e estou expandindo minhas habilidades para o desenvolvimento fullstack com Node.js e Golang.</p>
                     </div>
-                    <div className="flex flex-col sm:flex-row mt-5 mx-10 justify-around gap-6">
+                    <div className="flex flex-col sm:flex-row md:mt-5 md:mx-10 justify-around gap-6">
                         <Button
                             onClick={() => window.open("https://github.com/HenryMiles02/", "_blank")}
                         >GITHUB</Button>
@@ -42,7 +42,7 @@ export default function Contact() {
                 <div className="flex flex-1/2">
                     <img
                         src={Code}
-                        className="w-full rounded-2xl"
+                        className="w-full rounded-md md:rounded-2xl"
                         alt="Imagem de um script"
                     />
                 </div>

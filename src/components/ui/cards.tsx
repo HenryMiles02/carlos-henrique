@@ -17,7 +17,6 @@ export default function Card({ project }: CardProps) {
     return (
         <div
             className="
-            w-88
             bg-primary/10 backdrop-blur-sm
             border border-secondary
             rounded-lg p-5 gap-4

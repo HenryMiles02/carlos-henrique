@@ -14,7 +14,7 @@ export default function Slider() {
             bg-background-200/20 backdrop-blur-sm"
         >
             <Swiper
-            spaceBetween={0}    
+            spaceBetween={50}    
             slidesPerView={6}
             loop={true}
             autoplay={{
