@@ -5,7 +5,7 @@ import Code from "../../assets/img/code-ilustration.png"
 
 export default function Contact() {
     return(
-        <div className="container flex flex-col items-center py-10 gap-8">
+        <div id="contact" className="container flex flex-col items-center py-10 gap-8">
             <h1 className="text-primary font-family-secondary text-3xl font-extrabold">Sobre mim</h1>
 
             <div 

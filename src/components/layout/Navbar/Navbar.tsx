@@ -35,7 +35,9 @@ export default function Navbar() {
                                         <Navlink href={item.link}>{item.nome}</Navlink>
                                     </li>
                                 ))}
-                                <Button>Contato</Button>
+                                <Button
+                                    onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                                >Contato</Button>
                             </ul>
                         </div>
 

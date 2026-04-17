@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import NavLink from "../../ui/nav-link.tsx";
+import { NavbarMenu } from "../../../mockData/data.tsx";
 import Button from "../../ui/button.tsx";
 
 
@@ -26,10 +27,16 @@ export default function ResponsiveMenu({ open }: ResponsiveMenuProps) {
                         dark:border-background-100/20
                         pt-2 pb-10 rounded-b-2xl">
                             <ul className="flex flex-col justify-center items-center gap-10">
-                                <NavLink href="/">Home</NavLink>
-                                <NavLink href="/projetos">Projetos</NavLink>
-                                <NavLink href="/sobre">Sobre</NavLink>
-                                <Button className="">Contato</Button>
+                                {
+                                    NavbarMenu.map((item) => (
+                                        <li key={item.id}>
+                                            <NavLink href={item.link}>{item.nome}</NavLink>
+                                        </li>
+                                    ))
+                                }
+                                <Button onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
+                                    Contato
+                                </Button>
                             </ul>
                         </div>
                     </motion.div>

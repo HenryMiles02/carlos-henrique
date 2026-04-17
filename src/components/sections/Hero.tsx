@@ -6,7 +6,7 @@ import Perfil from "/public/perfil.png"
 export default function Hero() {
 
     return (
-        <main className="container grid-cols-1 md:grid-cols-2 grid
+        <main id="home" className="container grid-cols-1 md:grid-cols-2 grid
          min-h-162.5 md:gap-20 py-24 md:0 relative">
             {/* Hero Info */}
             <div className="flex flex-col justify-center py-14 md:py-0 text-center md:text-left space-y-6">

@@ -6,7 +6,7 @@ import { ProjectsData } from "../../mockData/data";
 export default function Projects() {
 
     return (
-        <section className="container flex flex-col items-center gap-10 my-14">
+        <section id="project" className="container flex flex-col items-center gap-10 my-14">
             <h1 className="text-primary text-3xl font-family-secondary font-extrabold">Projetos</h1>
 
             <div className="
